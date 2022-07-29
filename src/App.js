@@ -28,7 +28,7 @@ function App() {
 	const [guessedLetters, setGuessedLetters] = useState([]);
 	const [wrongLetters, setWrongLetters] = useState([]);
 	const [guesses, setGuesses] = useState(5);
-	const [score, setScore] = useState(50);
+	const [score, setScore] = useState(0);
 
 	const pickWordAndCategory = useCallback(() => {
 		//  pick a random category
@@ -93,7 +93,7 @@ function App() {
 		const uniqueLetters = [...new Set(letters)];
 
 		// win condition
-		if (guessedLetters.length === uniqueLetters.length) {
+		if (guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name) {
 			// add score
 			setScore((actualScore) => (actualScore += 100));
 			// restart game with new word
