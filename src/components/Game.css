@@ -1,20 +1,36 @@
 .game h1{
     font-size: 2.5em;
 }
+@media screen and (max-width: 400px){
+    .game h1 {
+        font-size: 2em;
+    }
+
+}
 
 .points span {
     font-weight: bold;
 }
 
 .tip span {
-    color: #ECFA00;
+    color: orange;
 }
 
 .wordContainer {
     margin: 1.5em;
     padding: 1.5em;
-    border: 20px solid #ecfa00;
+    border: 20px solid orange;
     display: flex;
+}
+@media screen and (max-width: 900px) {
+    .wordContainer {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wordContainer {
+        width: 250px;
+    }
 }
 
 .letter, .blankSquare {
@@ -28,6 +44,25 @@
     color: #000;
     font-weight: bold;
 }
+@media screen and (max-width: 600px){
+    .letter, .blankSquare {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .letter, .blankSquare {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
 
 .letterContainer p {
     margin-bottom: 1.2em;

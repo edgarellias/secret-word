@@ -1,9 +1,19 @@
 .start h1{
-    font-size: 3.5em;
+    font-size: 3.8em;
 }
+
+.start h1 span {
+    margin: 0;
+    padding: 0;
+    font-size: 4.8rem;
+    color: black;
+    background-color: orange;
+    
+}
+
 
 .start p{
     margin-bottom: 2em;
-    color: #ECFA00;
+    color: #fff;
     
 }

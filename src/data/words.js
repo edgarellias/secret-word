@@ -1,8 +1,9 @@
 export const wordsList = {
-	carro: ["Motor", "Porta", "Capô", "Pneu", "Antena"],
-	fruta: ["Banana", "Maçã", "Pêra", "Mamão", "Laranja"],
-	corpo: ["Braço", "Perna", "Cérebro", "Pescoço", "Olhos"],
-	computador: ["Mouse", "Teclado", "Monitor", "Gabinete"],
-	programação: ["Linguagem", "Framework", "JavaScript", "React"],
-	alimento: ["Arroz", "Feijão", "Carne", "Leite", "Ovo"],
+	carro: ["Motor", "Porta", "Capo", "Pneu", "Antena", "Volante", "Retrovisor", "Parachoque", "Farol", "Roda", "Banco"],
+	fruta: ["Banana", "Maça", "Pera", "Mamao", "Laranja", "Goiaba", "Tangerina", "Abacate", "Caqui", "Uva"],
+	corpo: ["Braço", "Perna", "Cerebro", "Pescoço", "Olhos", "Dedo", "Cabeça", "Ombro", "Tronco", "Unha"],
+	computador: ["Mouse", "Teclado", "Monitor", "Gabinete", "Fone", "Mousepad", "Memoria", "Cabo"],
+	alimento: ["Arroz", "Feijão", "Carne", "Leite", "Ovo", "Linguiça", "Polenta", "Frango", "Hamburguer", "Macarrao"],
+	vegetal: ["Batata", "Beterraba", "Pepino", "Cenoura", "Mandioca", "Couve", "Alface", "Abobora"],
+	eletrônico: ["TV", "Computador", "Celular", "Som", "Secador", "Geladeira", "Microondas", "Forno"]
 };
