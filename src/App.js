@@ -99,7 +99,7 @@ function App() {
 			// restart game with new word
 			startGame();
 		}
-	}, [guessedLetters, letters, startGame]);
+	}, [guessedLetters, letters, startGame, gameStage]);
 	// restart game
 	const retry = () => {
 		setScore(0);
